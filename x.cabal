@@ -16,7 +16,7 @@ executable _
   main-is:             Main.hs
   other-modules:  Tokens, Grammar
   -- other-extensions:    
-  build-depends:       base >=4.8 && <4.9, array
+  build-depends:       base, array
   hs-source-dirs:      src
   Build-Tools:    alex, happy
   ghc-options: -fno-warn-tabs
